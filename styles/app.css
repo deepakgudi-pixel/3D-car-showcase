@@ -142,4 +142,20 @@ body {
     outline: 1px solid #4285f4;
   }
 
+  @media (max-width: 600px) {
+    .slider{
+      top: 15px;
+      margin-left: 30px;
+    }
+
+    .slides{
+      flex-direction: column;
+    }
+    
+    .slide{
+      width: 50px;
+      height: 50px;
+    }
+
+  }
   
