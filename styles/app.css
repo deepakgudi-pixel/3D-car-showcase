@@ -145,16 +145,8 @@ body {
   @media (max-width: 600px) {
     .slider{
       top: 15px;
-      margin-left: 30px;
-    }
-
-    .slides{
-      flex-direction: column;
-    }
-    
-    .slide{
-      width: 50px;
-      height: 50px;
+      margin-left: 40px;
+      width: 80%;
     }
 
   }
