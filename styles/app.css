@@ -4,7 +4,11 @@ body {
     margin: 0;
   }
   
-  
+  *::-webkit-scrollbar{
+    display: none;
+  }
+
+
   /* This keeps child nodes hidden while the element loads */
   :not(:defined) > * {
     display: none;
@@ -144,18 +148,30 @@ body {
 
   @media (max-width: 600px) {
     .slider{
-      top: 15px;
-      margin-left: 30px;
+      margin-left: 10px;
     }
 
     .slides{
-      flex-direction: column;
+      /* flex-direction: column; */
     }
     
     .slide{
-      width: 50px;
+      width: 80px;
       height: 50px;
     }
 
   }
+
+  @media (max-width: 900px) {
+    .slider{
+      margin-left: 10px;
+    }
+    
+    .slide{
+      width: 60px;
+      height: 50px;
+    }
+
+  }
+
   
